@@ -3,16 +3,22 @@
 </head>
 
 <style>
-    .left-div {
-        float: left;
-        width: 100px;
-        height: 20px;
-        margin-right: 8px;
-        background-color: linen;
+    #row1{
+        display:flex;
+        flex-direction:row;
+    justify-content: space-around;
     }
-    .right-div {
-        margin-left: 108px;
-        background-color: lime;
+
+    #column1{
+        display:flex;
+        flex-direction:column;
+   
+    }
+
+
+    #column2{
+        display:flex;
+        flex-direction:column;
     }
 </style>
 <div>
@@ -21,9 +27,11 @@
     <p>A legitimate platform for CS:GO traders.</p>
     </center>
 </div>
-<div class="left-div">
-<iframe src="https://discordapp.com/widget?id=524185345072431104&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
-</div>
-<div class="right-div">
-<b>Features that we offer</b>    
+<div id="row1">
+    <div id="column1">
+        <iframe src="https://discordapp.com/widget?id=524185345072431104&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+    </div>
+    <div id="column2">
+        <h1>What We Offer:</h1>
+    </div>
 </div>
